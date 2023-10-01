@@ -14,7 +14,7 @@
 
 .logo {
   display: flex;
-  justify-self: flex-start;
+  justify-self: center;
   max-width: 80%;
   min-width: 50px;
   max-height: 200px;
@@ -78,17 +78,23 @@ h2 {
 
 /*                             Responsive */
 
-/* .page-grid {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .page-grid {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 3fr;
     row-gap: 10px;
     column-gap: 10px;
-} */
+  }
+}
 
-/* .project-box {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .project-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 10px;
     column-gap: 10px;
     margin: 10px;
-  } */
+  }
+}
