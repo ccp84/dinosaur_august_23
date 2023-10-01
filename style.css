@@ -1,59 +1,80 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /*                       Header */
 
 .header-grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    row-gap: 10px;
-    column-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 10px;
+  column-gap: 10px;
 }
 
 .logo {
-    display: flex;
-    justify-self: center;
-    width: 80%;
-    border-radius: 5%;
-    border: dashed blueviolet;
-    margin: 5px;
-    padding: 5px;
+  display: flex;
+  justify-self: flex-start;
+  max-width: 80%;
+  min-width: 50px;
+  max-height: 200px;
+  min-height: 50px;
+  border-radius: 5%;
+  border: dashed blueviolet;
+  margin: 10px;
+  padding: 5px;
 }
 
 h1 {
-    color: blueviolet;
+  color: blueviolet;
+  margin: 10px;
 }
 
 /*                              Main Page */
 
 .page-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 10px;
-    column-gap: 10px;
-    margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin: 10px;
 }
 
 h2 {
-    color: blueviolet;
+  color: blueviolet;
 }
 
+.project-box {
+  border-top: dashed blueviolet;
+}
 
 /*                               Footer */
 
 .footer-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 10px;
-    column-gap: 10px;
-    margin: 10px;
-    padding: 5px;
-    border: dashed blueviolet;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 5px;
+  border: dashed blueviolet;
 }
 
+.footer-link:hover {
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  border: white solid;
+  text-decoration: none;
+}
 
+.footer-link {
+  background-color: white;
+  color: blueviolet;
+  padding: 5px;
+  border-radius: 10%;
+  border: blueviolet solid;
+  text-decoration: none;
+}
 
 /*                             Responsive */
 
@@ -63,3 +84,11 @@ h2 {
     row-gap: 10px;
     column-gap: 10px;
 } */
+
+/* .project-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 10px;
+  } */
