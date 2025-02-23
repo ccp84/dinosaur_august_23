@@ -19,7 +19,7 @@
   min-width: 50px;
   max-height: 200px;
   min-height: 50px;
-  border-radius: 5%;
+  border-radius: 20px;
   border: dashed blueviolet;
   margin: 10px;
   padding: 5px;
@@ -62,7 +62,7 @@ h2 {
   background-color: blueviolet;
   color: white;
   padding: 5px;
-  border-radius: 10%;
+  border-radius: 10px;
   border: white solid;
   text-decoration: none;
 }
@@ -71,7 +71,7 @@ h2 {
   background-color: white;
   color: blueviolet;
   padding: 5px;
-  border-radius: 10%;
+  border-radius: 10px;
   border: blueviolet solid;
   text-decoration: none;
 }
